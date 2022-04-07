@@ -58,7 +58,7 @@ h3 {
 /* Text paragraphs */
 p {
     font-family: 'Merriweather',serif;
-    font-size: calc(16px + (21 - 16) * ((100vw - 320px) / (1600 - 320)))22px;
+    font-size: calc(16px + (21 - 16) * ((100vw - 320px) / (1600 - 320)));
     color: #455C80;
     line-height: 1.6;
     margin-top: 0;
