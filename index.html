@@ -4,61 +4,166 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CarlowLawnmowers</title>
-    <meta name="description" content="Hi I'm Mary, a UI & UX designer based in Dublin. Mobile and Responsive Web Design, eCommerce Websites, Branding and Logo Design.">  
-    <link rel="stylesheet" href="assets/css/global.css">
-    
-    <link rel="preload" href="assets/img/laptop-with-colourful-screen.jpg" as="image">
+    <title>Mary Smith / Web Designer</title>
+    <meta name="description" content="I create digital experiences to promote products, services and events.">
 
-    <link rel="stylesheet" href="assets/globalcss/hero-image.css">
+	<!-- Preload hero image -->
 
- <!-- hero block -->
- <header class="hero-block text-center">
+	<!-- Stylesheets -->
+    <link rel="stylesheet" href="../assets/css/lunevedy.min.css" />
+    <link rel="stylesheet" href="../assets/css/custom.css" />
 
-    <div class="hero-text-container">
-        
-        <h1 class="slide-in-top">Hi, I'm Mary Smith</h1>
-        <h2 class="slide-in-left">Web / UI Designer</h2>
-        <h2 class="slide-in-left">I created this website to showcase some of my recent web design work.</h2>
+	<!-- Google Fonts -->
+
+    <!-- Font Awesome 6 icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Line Awesome icons -->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+    <!-- Google Material Design Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+</head>
+
+<body>
+ <!-- navigation menu -->
+ <nav></nav>
+
+ <!-- header hero block -->
+<header>
+ <nav class="container-menu menu-dark menu-desktop text-center-mobile">
+    <a href="../index.html"><img src="../assets/img/website-logo.png" alt="website logo"></a>
+    <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../portfolio/index.html">Portfolio</a></li>
+        <li><a href="#" id="btn-cta"><i class="fas fa-arrow-right"></i><span>Get in touch</span></a></li>
+    </ul>
+    <div class="item-icon">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
     </div>
-    <div class="hero-bg-media">
-        <img src="assets/img/laptop-with-colourful-screen.jpg" alt="sample background image">   
+</nav>
+
+<header class="hero-block hero-bg text-center-desktop text-center-mobile">
+
+    <div class="container-text">
+        <h1 class="text-shadow">Realise your digital potential</h1>
+        <h2 class="text-shadow">Helping businesses of every size and type get the most from digital platforms.</h2>
     </div>
-    <div class="bg-overlay"></div>      
+
+	<div class="container-btn">
+		<a href="../portfolio/index.html" class="btn btn-primary"><i class="fas fa-arrow-right"></i><span>View my work</span></a>
+	</div>
+
+    <div class="container-media">
+		<img src="../assets/img/home-page-hero-image.jpg" alt="home-page-image">
+	</div>
+
+	<div class="container-overlay"></div>
 
 </header>
-<!-- /hero block -->
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-JSG11ZHY45"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-JSG11ZHY45');
-</script>
+</header>
 
-</head>
-<body>
-        
-    <h3>Sample Web Pages</h3>
-    <p><a href="exercises/page-1.html">A Tale of Two Cities</a></p>
-    <p><a href="exercises/page-2.html">IBAT Chocolates</a></p>
-    <p><a href="exercises/page-3.html">Prince & Purple Rain</a></p>
-    <p><a href="exercises/page-4.html">Lorem Ipsum Text</a></p>
-    <p><a href="exercises/page-5.html">Vincent van Gogh</a></p>
-    <p><a href="exercises/page-6.html">Irish Tourism</a></p>
-    <p><a href="exercises/page-7.html">Smoothies</a></p>
-    <p><a href="exercises/page-8.html">Software Analytics</a></p>
-    <p><a href="exercises/page-9.html">The Box Model</a></p> 
-    <p><a href="exercises/page-10.html">Web Page With Panels</a></p> 
-    <p><a href="exercises/hero-text.html">Hero block with animated text</a></p> 
-    <p><a href="exercises/hero-image.html">Hero block with background image</a></p> 
-    <p><a href="exercises/hero-image1.html">Hero block with backgroune purple office image</a></p> 
-    <p><a href="exercises/hero-image2.html">Hero block with background laptop-with-colourful-screen</a></p>
-    <p><a href="exercises/hero-video.html">Hero block with background video</a></p> 
+
+    <!-- main content with sections -->
+    <main>
+        <section class="container-contact-form">
+
+            <!-- Contact form starts here -->
+            <form id="contact-form" name="contact-form" accept-charset="utf-8" method="post" action="https://formspree.io/f/moqrkwgo">
+
+                <div class="contact-form-upper text-center">
+                    <h2>Get in touch</h2>
+                    <p>Use the form below to let me know a little more about your objectives and I'll get back to you.</p>
+                </div>
+
+                <!-- Begin contact form fields -->
+
+                <div class="flex-row">
+                    <div class="item-name">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" name="name" id="full-name" placeholder="Your First and Last Name." required="">
+                    </div>
+                    <div class="item-email">
+                        <label for="email-address">Email</label>
+                        <input type="email" name="_replyto" id="email-address" placeholder="Your Email Address." required="">
+                    </div>
+                </div>
+
+                <div class="flex-row">
+                    <div class="item-textarea">
+                        <label for="message">Message</label>
+                        <textarea rows="5" name="message" id="message" placeholder="Your Message." required=""></textarea>
+                    </div>
+
+                    <div class="item-btn">
+                        <button id="btn-submit" type="submit"><span>Send</span><i class="fas fa-arrow-circle-right"></i></button> 
+                    </div>
+                </div>
+
+                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                <!-- End contact form fields -->
+
+            </form><!-- Contact form ends here -->
+    </section><!-- End container for contact form -->
+
+    </main>
+
     
-    <!--  This is a comment  -->
+    <!-- footer -->
+    <footer></footer>
+      
+
+    <footer>
+
+        <h2>Mary Smith, Web Designer</h2>
+        <h3>Excellence in digital creation</h3>
+
+        <ul class="footer-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../portfolio/index.html">Portfolio</a></li>
+            <li><a href="#">Get in touch</a></li>
+        </ul>
+        
+        <ul class="footer-icons">
+            <li>
+                <a href="#" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+   
+            <li>
+                <a href="#" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+         </ul>                
+        
+        </footer>
+ 
+    <script src="../assets/js/menu.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#000"
+        },
+        "button": {
+          "background": "#f1d600"
+        }
+      },
+      "content": {
+        "href": "https://github.com/CarlowLawnmowers/CarlowLawnmowers.github.io/privacy.html"
+      }
+    });
+    </script>   
 </body>
 </html>
