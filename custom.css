@@ -1,0 +1,24 @@
+/* Add your custom styles here */
+
+
+section.theme-light.section-selector-1 { background-color: var(--trend-800) }
+section.theme-light.section-selector-1 .col-1 h2 { color: var(--white-000) }
+section.theme-light.section-selector-1 .col-1 h3 { color: var(--white-000) }
+
+section.theme-light.section-selector-1 .col-4 h3 { color: var(--white-000) }
+section.theme-light.section-selector-1 .col-4 p { color: var(--white-000) }
+section.theme-light.section-selector-1 .col-4 li { color: var(--white-000) }
+section.theme-light.section-selector-1 .col-4 { background-color: var(--slate-600) }
+section.theme-light.section-selector-1.col-borders .col-4 { border-color: var(--gray-300) }
+
+
+.hero-block h1 { color: var(--white-000) }
+.hero-block h2 { color: var(--white-000) }
+.hero-block { background-color: var(--slate-600) }
+
+footer ul.footer-icons li a:any-link i {
+    font-size: 50px
+}
+
+
+
