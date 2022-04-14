@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mary Smith / Web Designer</title>
-    <meta name="description" content="I create digital experiences to promote products, services and events.">
+    <meta name="description" content="Below you can see some examples of my recent work. Check out my complete portfolio.">
 
 	<!-- Preload hero image -->
 
@@ -26,56 +26,53 @@
     rel="stylesheet">
 
     <!-- Google analytics here -->
-
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css">
 </head>
 
-
 <body>
-
     <!-- navigation menu -->
     <nav></nav>
 
     <!-- header hero block -->
-    <header>
-
+<header>
         <nav class="container-menu menu-dark menu-desktop text-center-mobile">
-            <a href="#"><img src="../assets/img/website-logo.png" alt="website logo"></a>
+        <a href="#"><img src="../assets/img/website-logo.png" alt="website logo"></a>
             <ul>
-                <li> <a href="../contact/index.html" class="btn btn-primary"><i class="fas fa-arrow-right"></i> Contact</a></li>
-               
-            </ul>
-            <div class="item-icon">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
-            </div>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="#">Portfolio</a></li>       
+        <li> <a href="../contact/index.html" class="btn btn-primary"><i class="fas fa-arrow-right"></i> Get in touch</a></li>   
+        </ul>
+
+        <div class="item-icon">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        </div>
         </nav>
+</header> 
+
+<header class="hero-block hero-bg text-center-desktop text-center-mobile">
         
-        <header class="hero-block hero-bg text-center-desktop text-center-mobile">
-        
-            <div class="container-text">
-                <h1 class="text-shadow">Mary Smith</h1>
-                <h2 class="text-shadow">I create digital experiences to promote products, services and events. </h2>
-                
+        <div class="container-text">
+            <h1 class="text-shadow">Mary Smith</h1>
+            <h2 class="text-shadow slide-in-left 5s">I create digital experiences to promote products, services and events. </h2>
+            <h2 class="text-shadow slide-in-right 5s">I am an innovative Web Designer who loves to build human-friendly interfaces. </h2>  
             </div>
         
             <div class="container-btn">
-                <a href="#" class="#"><i class=></i> </a>
-                <a href="..contact/index.html" class="btn btn-primary"><i class="fas fa-arrow-right"></i> Contact</a>
+            <a href="#" class="#"><i class=></i> </a>
+            <a href="../contact/index.html" class="btn btn-primary"><i class="fas fa-arrow-right"></i><span>Get in touch</span></a>
             </div>
-        
+               
             <div class="container-media">
-                <img src="../assets/img/home-page-hero-image.jpg" alt="Mary Smith web developer">
+            <img src="../assets/img/semi-closed-laptop-image.jpg" alt="Mary Smith web developer">
             </div>
         
-            <div class="container-overlay"></div>
-        
-        </header>    
-
-    </header>
-
-    <!-- main content with sections -->
-    <main>
+            <div class="container-overlay"></div>      
+</header>    
+    
+<!-- main content with sections -->
+<main>
 
         <section class="container-flex theme-light section-selector-1 col-borders">
             <div class="col-1 text-center">
@@ -83,8 +80,6 @@
                 <h3>Below you can see some examples of my recent work. Check out my complete portfolio. </h3>
                 <h3>Have a project you would like to discuss? </h3>
                 <h3>Let's make something great together!</h3>
-                <h3> I am an innovative Web Designer who loves to build human-friendly interfaces.</h3>
-                <h3>Front-end Developer.</h3>
             </div>
     
             <div class="col-4">
@@ -116,31 +111,40 @@
             </div>
         </section>
         
-    </main>
-
+</main>
     
-    <!-- footer -->
-   
-    <footer class="hero-block hero-light text-center-desktop text-center-mobile">
+<!-- footer -->
+<footer class="hero-block hero-light text-center-desktop text-center-mobile">
 
         <div class="container-text">
             <h1>Mary Smith - Web Designer</h1>
             <h2>Excellence in digital creation.</h2>
-            <h2>Use the form below to let me know a little more about your objectives and I'll get back to you.</h2>
         </div>
     
         <ul class="footer-links">
             <li><a href="../index.html">Home</a></li>
-            <li><a href="#"></i> Portfolio</a></li>
-            <li><a href="../contact/index.html"></i> Contact</a></li>
-            
+            <li><a href="#"> Portfolio</a></li>
+            <li><a href="../contact/index.html">Get in touch</a></li>  
         </ul>
-    
-    </footer>   
 
+        <ul class="footer-icons">
+            <li>
+            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li>
+             <a href="#" target="_blank"><i class="fab fa-github"></i></a></li>               
+            <li>
+            <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+            </ul>      
+</footer>   
 
+<script src="../assets/js/menu.js"></script>
 
-    <script src="assets/js/menu.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
 
+<script>
+    window.cookieconsent.initialise({"palette": {"popup": {"background": "red"},     "button": {"background": "#f1d600"}},"content": {
+    "href": "https://github.com/CarlowLawnmowers/CarlowLawnmowers.github.io/privacy.html"
+    }});
+</script>
 </body>
 </html>
