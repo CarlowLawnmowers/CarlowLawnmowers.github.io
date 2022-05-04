@@ -1,13 +1,18 @@
 /* Add your custom styles here */
-
+/*Middle section*/
 section.theme-light.section-selector-1 .col-1 h2 { color: var(--trend-900) }
 section.theme-light.section-selector-1 .col-1 h3 { color: var(--trend-500) }
 section.theme-light.section-selector-1 .col-4 p { color: var(--white-000) }
-.section-selector-1 .col-4 li { color: var(--white-000) }
+.section-selector-1 .col-4 li { color: var(--black) }
+section.theme-light.section-selector-1 .col-1 h2 {font-family: 'Abril Fatface', serif;}
+section.theme-light.section-selector-1 .col-1 h3 {font-family: 'Abril Fatface', serif;}
+section.theme-light.section-selector-1 .col-4 p {font-family: 'Abril Fatface', serif;}
+.section-selector-1 .col-4 li {font-family: 'Abril Fatface', serif;}
 section.theme-light.section-selector-1 .col-4 h3 { color: var(--white-000) }
 section.theme-light.section-selector-1 { background-color: var(--sky-100) }
 section.theme-light.section-selector-1 .col-4 { background-color: var(--sky-800) }
 section.theme-light.section-selector-1.col-borders .col-4 { border-color: var(--sky-900) }
+
 section.theme-light.section-selector-1 a.btn-primary:focus,
 section.theme-light.section-selector-1 a.btn-primary:hover,
 section.theme-light.section-selector-1 a.btn-primary:active { color: var(--white-000) }
@@ -29,14 +34,10 @@ section.theme-light.section-selector-1 a.btn-primary:visited { background-color:
 section.theme-light.section-selector-1 a.btn-primary:link,
 section.theme-light.section-selector-1 a.btn-primary:visited { border-color: var(--sky-700) }
 
-
 .hero-block h1 { color: var(--white-000) }
 .hero-block h2 { color: var(--white-000) }
 .hero-block { background-color: var(--sky-500)
     }
-
-
-
 
 
 footer ul.footer-icons li a:any-link i {
@@ -47,7 +48,7 @@ form {color: blue;}
 
 
 
-Note Opening Header and footer design
+/* Opening Header and footer design */
 
 .hero-block a.btn-primary:focus,
 .hero-block a.btn-primary:hover,
@@ -86,7 +87,7 @@ Note Opening Header and footer design
 
 .hero-block { background-color: var(--sky-900) }
 .hero-block h2 { color: var(--fuchsia-100) }
-.hero-block h2 {font-weight:bolder; }
+.hero-block h2 {font-weight:900; }
 .hero-block h2 {font-family: 'Abril Fatface', serif;}
 
 
