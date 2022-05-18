@@ -4,10 +4,12 @@ section.theme-light.section-selector-1 .col-1 h2 { color: var(--trend-900) }
 section.theme-light.section-selector-1 .col-1 h3 { color: var(--trend-500) }
 section.theme-light.section-selector-1 .col-4 p { color: var(--white-000) }
 .section-selector-1 .col-4 li { color: var(--black) }
-section.theme-light.section-selector-1 .col-1 h2 {font-family: 'Abril Fatface', serif;}
-section.theme-light.section-selector-1 .col-1 h3 {font-family: 'Abril Fatface', serif;}
-section.theme-light.section-selector-1 .col-4 p {font-family: 'Abril Fatface', serif;}
-.section-selector-1 .col-4 li {font-family: 'Abril Fatface', serif;}
+
+section.theme-light.section-selector-1 .col-1 h2 {font-family: 'Montserrat', sans-serif}
+section.theme-light.section-selector-1 .col-1 h3 {font-family: 'Montserrat', sans-serif}
+section.theme-light.section-selector-1 .col-4 p {font-family: 'Montserrat', sans-serif}
+.section-selector-1 .col-4 li {font-family: 'Montserrat', sans-serif}
+
 section.theme-light.section-selector-1 .col-4 h3 { color: var(--white-000) }
 section.theme-light.section-selector-1 { background-color: var(--sky-100) }
 section.theme-light.section-selector-1 .col-4 { background-color: var(--sky-800) }
@@ -83,12 +85,12 @@ form {color: blue;}
 .hero-block a.btn-secondary:active { border-color: var(--rose-500) }
 
 .hero-block h1 { color: var(--indigo-300) }
-.hero-block h1 {font-family: 'Abril Fatface', serif;}
+.hero-block h1 {font-family: 'Montserrat', sans-serif}
 
 .hero-block { background-color: var(--sky-900) }
 .hero-block h2 { color: var(--fuchsia-100) }
-.hero-block h2 {font-weight:900; }
-.hero-block h2 {font-family: 'Abril Fatface', serif;}
+.hero-block h2 {font-weight:300; }
+.hero-block h2 {font-family: 'Montserrat', sans-serif}
 
 
-
+font-family: 'Montserrat', sans-serif;

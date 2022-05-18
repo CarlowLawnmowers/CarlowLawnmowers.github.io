@@ -11,14 +11,19 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">    
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">    
     <link rel="manifest" href="assets/img/site.webmanifest">
-	<!-- Preload hero image -->
+	
+    <!-- Preload hero image -->
+    <link rel="preload" href="assets/img/abstract-image-home-page.jpg" as="asbstract imgage"
 
-	<!-- Stylesheets -->
+	<!-- stylesheets -->
     <link rel="stylesheet" href="assets/css/lunevedy.min.css" />
     <link rel="stylesheet" href="assets/css/custom.css" />
 
 	<!-- Google Fonts -->
-   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300,0,400;0,700;1,400&display=swap" rel="stylesheet">
+
     <!-- Font Awesome 6 icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -40,11 +45,11 @@
 <!-- header hero block -->
 <header>
 <nav class="container-menu menu-dark menu-desktoptext-center-mobile">            
-    <a href="#"><img src="assets/img//Digital-Design-logo1.png" alt="website logo"></a>
+    <a href="#"><img src="assets/img/logo1.png" alt="website logo"></a>
     <ul>
         <li><a href="#">Home</a></li>   
         <li><a href="portfolio/index.html">Portfolio</a></li>                     
-        <li><a href="contact/index.html" class="btn btn-primary"><i class="fas fa-arrow-right"></i>Get in touch</a></li>
+        <li><a href="contact/index.html" id="btn-cta"> <span>Get in touch</span><i class="fas fa-arrow-right"></i></a></li>
     </ul>
             
     <div class="item-icon">
@@ -80,9 +85,8 @@
 <div class="col-1 text-center">
 
         <h2>Recent Projects</h2>
-        <h3>Below you can see some examples of our recent work.<br>Check out our complete portfolio.<br>Have a project you would like to discuss?<br>Let's make something great together! </h3>
-        <a class="btn btn-primary btn-soft" href="portfolio/index.html">View Portfolio</a>
-    </div>
+        <h3>Below you can see some examples of our work.<br>Check out our <a href="portfolio/index.html"> complete portfolio.</a> <br>Have a project you would like to discuss?<br>Let's make something great together! </h3>
+           </div>
     
     <div class="col-4">
         <figure><img src="assets/img/project-van-gogh.png" alt="Vincent van Gogh image"></figure>
@@ -94,7 +98,7 @@
     <div class="col-4">
         <figure><img src="assets/img/project-smoothie.jpg" alt="Smoothies image"></figure>
         <h3>Smooth Smoothies</h3>
-        <p>A multi-column, flexbox-based page layout and hero image with a tinted overlay.</p>
+        <p>Our world-class smoothies are great at any time of the day and offer a tasty alternative to sugary and unhealthy snacks!.</p>
         <a class="btn btn-primary btn-soft" href="portfolio/smoothies/index.html">View project</a>
     </div>
     
@@ -108,7 +112,7 @@
     <div class="col-4">
         <figure><img src="assets/img/crypto-wallet-hero-image.jpg" alt="crypto wallet image"></figure>
         <h3>Crypto Wallet</h3>
-        <p>Snazzy provides investors, from beginners to experts, with a comprehensive crypto trading experience, on a powerful yet user-friendly platform.</p>
+        <p>Snazzy provides investors, from beginners to experts, with a comprehensive crypto trading experience, on a user-friendly platform.</p>
         <a class="btn btn-primary btn-soft" href="portfolio/crypto-wallet/index.html">View project</a>
     </div>
 
